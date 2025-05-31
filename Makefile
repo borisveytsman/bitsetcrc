@@ -6,7 +6,7 @@ PDF = $(PACKAGE).pdf
 all:  ${PDF} $(PACKAGE).sty 
 
 
-%.pdf:  %.dtx   $(PACKAGE).sty $(FONTS)
+%.pdf:  %.dtx   $(PACKAGE).sty 
 	pdflatex $<
 	- bibtex $*
 	pdflatex $<

@@ -1,0 +1,15 @@
+*.aux
+*.glo
+*.gls
+*.hd
+*.idx
+*.ilg
+*.ind
+*.log
+*.out
+*.pdf
+*.sty
+*.toc
+*.bbl
+*.blg
+
